@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Tool } from "lucide-react";
+import { ArrowRight, Wrench } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -29,7 +29,7 @@ const Hero = () => {
             </div>
             <div className="px-4 py-3 bg-white/80 backdrop-blur-sm rounded-lg border shadow-sm inline-block">
               <p className="font-medium text-velkalyan-blue flex items-center">
-                <Tool className="mr-2 h-5 w-5 text-velkalyan-red" />
+                <Wrench className="mr-2 h-5 w-5 text-velkalyan-red" />
                 Official Tool Supplier for Honda Motorcycles India Ltd.
               </p>
             </div>
@@ -41,19 +41,19 @@ const Hero = () => {
             <div className="relative z-10 text-center p-8">
               <div className="grid grid-cols-2 gap-8 mb-8">
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md">
-                  <Tool className="h-10 w-10 text-velkalyan-blue mb-2" />
+                  <Wrench className="h-10 w-10 text-velkalyan-blue mb-2" />
                   <span className="font-medium">Screwdrivers</span>
                 </div>
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md">
-                  <Tool className="h-10 w-10 text-velkalyan-blue mb-2" />
+                  <Wrench className="h-10 w-10 text-velkalyan-blue mb-2" />
                   <span className="font-medium">Spanners</span>
                 </div>
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md">
-                  <Tool className="h-10 w-10 text-velkalyan-blue mb-2" />
+                  <Wrench className="h-10 w-10 text-velkalyan-blue mb-2" />
                   <span className="font-medium">Box Wrenches</span>
                 </div>
                 <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md">
-                  <Tool className="h-10 w-10 text-velkalyan-blue mb-2" />
+                  <Wrench className="h-10 w-10 text-velkalyan-blue mb-2" />
                   <span className="font-medium">Tool Bags</span>
                 </div>
               </div>

@@ -1,14 +1,14 @@
 
 import React from 'react';
 import ProductCard from './ProductCard';
-import { Screwdriver, Wrench, Package, ShoppingBag } from 'lucide-react';
+import { Wrench, ShoppingBag, Package } from 'lucide-react';
 
 const ProductGrid = () => {
   const products = [
     {
       title: 'Precision Screwdrivers',
       description: 'Professional-grade screwdrivers engineered for precise torque and durability.',
-      icon: <Screwdriver className="w-6 h-6 text-velkalyan-blue" />,
+      icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
       features: [
         'Chrome vanadium steel construction',
         'Ergonomic grip handles',
