@@ -4,6 +4,14 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Wrench } from "lucide-react";
 
 const Hero = () => {
+  const scrollToProducts = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    const productsSection = document.getElementById('products');
+    if (productsSection) {
+      productsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="relative overflow-hidden bg-gradient-to-b from-white to-gray-100">
       {/* Abstract shape decorations */}
@@ -20,12 +28,15 @@ const Hero = () => {
                 Precision Tools for Automotive Excellence
               </h1>
               <p className="text-lg text-velkalyan-gray mt-4">
-                Trusted supplier of premium hand tools to Honda Motorcycles India Ltd. 
+                Trusted supplier of premium hand tools to Honda Motorcycles & Scooters India Ltd. 
                 Engineering quality, durability, and precision for automotive professionals.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-velkalyan-red hover:bg-velkalyan-red/90 text-white transform transition-transform duration-300 hover:scale-105">
+              <Button 
+                className="bg-velkalyan-red hover:bg-velkalyan-red/90 text-white transform transition-transform duration-300 hover:scale-105"
+                onClick={scrollToProducts}
+              >
                 Explore Products
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -36,7 +47,7 @@ const Hero = () => {
             <div className="px-6 py-4 bg-white/90 backdrop-blur-sm rounded-lg border border-gray-200 shadow-sm inline-block transform hover:shadow-md transition-all duration-300">
               <p className="font-medium text-velkalyan-blue flex items-center">
                 <Wrench className="mr-2 h-5 w-5 text-velkalyan-red" />
-                Official Tool Supplier for Honda Motorcycles India Ltd.
+                Official Tool Supplier for Honda Motorcycles & Scooters India Ltd.
               </p>
             </div>
           </div>

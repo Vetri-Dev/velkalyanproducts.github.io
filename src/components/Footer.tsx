@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Wrench, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
@@ -10,11 +9,11 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-5">
               <Wrench className="h-6 w-6 text-velkalyan-red mr-2" />
-              <span className="text-xl font-bold">Velkalyan</span>
+              <span className="text-xl font-bold">Velkalyan Products</span>
             </div>
             <p className="text-sm opacity-80 mb-6">
               Precision engineering for automotive excellence. 
-              Trusted supplier of quality hand tools to Honda Motorcycles India Ltd.
+              Trusted supplier of quality hand tools to Honda Motorcycles & Scooters India Ltd.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-velkalyan-red transition-colors">

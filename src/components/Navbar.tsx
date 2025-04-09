@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center space-x-2">
               <Wrench className="h-6 w-6 text-velkalyan-red" />
-              <span className="text-xl font-bold text-velkalyan-blue">Velkalyan</span>
+              <span className="text-xl font-bold text-velkalyan-blue">Velkalyan Products</span>
             </a>
           </div>
           
