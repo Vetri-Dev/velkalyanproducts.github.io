@@ -74,25 +74,35 @@ const ProductGrid = () => {
   ];
 
   return (
-    <section id="products" className="section-padding bg-gray-50">
+    <section id="products" className="section-padding bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Premium Product Range</h2>
+          <span className="inline-block px-3 py-1 text-sm font-medium bg-velkalyan-blue/10 text-velkalyan-blue rounded-full mb-3">Our Products</span>
+          <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-velkalyan-blue to-velkalyan-blue/70 bg-clip-text text-transparent">Our Premium Product Range</h2>
           <p className="text-velkalyan-gray">
             Explore our lineup of professional-grade hand tools engineered to meet the exacting 
             standards of Honda Motorcycles and automotive professionals.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
-            <ProductCard 
-              key={index}
-              title={product.title}
-              description={product.description}
-              icon={product.icon}
-              features={product.features}
-            />
+            <div 
+              key={index} 
+              className="transform transition-all duration-300 hover:translate-y-[-5px]"
+              style={{
+                animationDelay: `${index * 100}ms`,
+                animation: 'fade-in 0.5s ease-out forwards',
+                opacity: 0
+              }}
+            >
+              <ProductCard 
+                title={product.title}
+                description={product.description}
+                icon={product.icon}
+                features={product.features}
+              />
+            </div>
           ))}
         </div>
       </div>
