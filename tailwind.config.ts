@@ -54,11 +54,14 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				velkalyan: {
-					blue: '#0F3460',
-					gray: '#647687',
-					red: '#E94560',
-					light: '#F5F5F5',
-					dark: '#212A3E'
+					blue: '#1e40af',
+					navy: '#1e3a8a', 
+					gray: '#6b7280',
+					orange: '#f97316',
+					amber: '#f59e0b',
+					light: '#f8fafc',
+					dark: '#0f172a',
+					slate: '#334155'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -70,6 +73,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				heading: ['Poppins', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -112,20 +119,39 @@ export default {
 						opacity: '1',
 						transform: 'translateX(0)'
 					}
+				},
+				'gradient-x': {
+					'0%, 100%': {
+						'background-size': '200% 200%',
+						'background-position': 'left center'
+					},
+					'50%': {
+						'background-size': '200% 200%',
+						'background-position': 'right center'
+					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in': 'fade-in 0.5s ease-out',
-				'slide-in': 'slide-in 0.5s ease-out'
+				'slide-in': 'slide-in 0.5s ease-out',
+				'gradient-x': 'gradient-x 15s ease infinite',
+				'float': 'float 6s ease-in-out infinite'
 			},
 			boxShadow: {
 				'soft': '0 10px 25px -5px rgba(0, 0, 0, 0.05)',
 				'medium': '0 10px 25px -5px rgba(0, 0, 0, 0.1)',
+				'glow': '0 0 20px -5px rgba(59, 130, 246, 0.3)',
+				'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
 			}
 		}
 	},
