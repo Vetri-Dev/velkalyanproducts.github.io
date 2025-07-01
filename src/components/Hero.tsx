@@ -12,6 +12,14 @@ const Hero = () => {
     }
   };
 
+  const scrollToContact = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="relative overflow-hidden bg-gradient-to-br from-white via-slate-50 to-blue-50">
       {/* Enhanced background decorations */}
@@ -53,10 +61,10 @@ const Hero = () => {
               </Button>
               
               <Button 
-                variant="outline" 
-                className="h-14 px-8 border-2 border-velkalyan-blue text-velkalyan-blue hover:bg-velkalyan-blue/10 font-semibold rounded-xl transition-all duration-300 hover:border-velkalyan-navy hover:text-velkalyan-navy"
+                className="h-14 px-8 bg-velkalyan-amber hover:bg-velkalyan-amber/90 text-velkalyan-navy font-semibold rounded-xl transition-all duration-300 hover:shadow-medium"
+                onClick={scrollToContact}
               >
-                Our Partnership Story
+                Request Information
               </Button>
             </div>
             

@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X, Wrench, ShoppingBag } from "lucide-react";
@@ -17,7 +18,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center space-x-2">
               <Wrench className="h-7 w-7 text-velkalyan-red" />
-              <span className="text-2xl font-bold text-velkalyan-blue">Velkalyan Products</span>
+              <span className="text-3xl font-bold text-velkalyan-blue">Velkalyan Products</span>
             </a>
           </div>
           
@@ -28,9 +29,6 @@ const Navbar = () => {
             </a>
             <a href="#about" className="text-velkalyan-blue hover:text-velkalyan-red font-medium transition-colors">
               About Us
-            </a>
-            <a href="#partnership" className="text-velkalyan-blue hover:text-velkalyan-red font-medium transition-colors">
-              Partnership
             </a>
             <a href="#contact" className="text-velkalyan-blue hover:text-velkalyan-red font-medium transition-colors">
               Contact
@@ -83,13 +81,6 @@ const Navbar = () => {
             onClick={() => setIsMenuOpen(false)}
           >
             About Us
-          </a>
-          <a 
-            href="#partnership" 
-            className="block py-2 px-4 text-velkalyan-blue hover:bg-velkalyan-light rounded-md"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Partnership
           </a>
           <a 
             href="#contact" 

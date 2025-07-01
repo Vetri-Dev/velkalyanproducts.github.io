@@ -6,6 +6,7 @@ import { Wrench, ShoppingBag, Package } from 'lucide-react';
 const ProductGrid = () => {
   const products = [
     {
+      id: 'precision-screwdrivers',
       title: 'Precision Screwdrivers',
       description: 'Professional-grade screwdrivers engineered for precise torque and durability.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
@@ -17,6 +18,7 @@ const ProductGrid = () => {
       ]
     },
     {
+      id: 'professional-spanners',
       title: 'Professional Spanners',
       description: 'High-quality spanners designed for optimal grip and torque control.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
@@ -28,6 +30,7 @@ const ProductGrid = () => {
       ]
     },
     {
+      id: 'box-wrenches',
       title: 'Box Wrenches',
       description: 'Durable box wrenches that provide superior leverage for challenging tasks.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
@@ -39,6 +42,7 @@ const ProductGrid = () => {
       ]
     },
     {
+      id: 'spark-plug-wrenches',
       title: 'Spark Plug Wrenches',
       description: 'Specialized wrenches for precise and safe spark plug installation and removal.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
@@ -50,6 +54,7 @@ const ProductGrid = () => {
       ]
     },
     {
+      id: 'professional-tool-bags',
       title: 'Professional Tool Bags',
       description: 'Durable, organized tool storage solutions for automotive professionals.',
       icon: <ShoppingBag className="w-6 h-6 text-velkalyan-blue" />,
@@ -61,6 +66,7 @@ const ProductGrid = () => {
       ]
     },
     {
+      id: 'tool-sets-kits',
       title: 'Tool Sets & Kits',
       description: 'Comprehensive tool collections designed specifically for Honda maintenance.',
       icon: <Package className="w-6 h-6 text-velkalyan-blue" />,
@@ -88,7 +94,8 @@ const ProductGrid = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
             <div 
-              key={index} 
+              key={index}
+              id={product.id}
               className="transform transition-all duration-300 hover:translate-y-[-5px]"
               style={{
                 animationDelay: `${index * 100}ms`,

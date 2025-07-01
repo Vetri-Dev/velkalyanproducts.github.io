@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-velkalyan-blue text-white">
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <div className="flex items-center mb-5">
               <Wrench className="h-6 w-6 text-velkalyan-red mr-2" />
@@ -38,41 +38,29 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
-          <div>
-            <h3 className="text-lg font-bold text-white mb-5">Product Categories</h3>
-            <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
-                  Screwdrivers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
-                  Spanners
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
-                  Box Wrenches
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
-                  Spark Plug Wrenches
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
-                  Tool Bags
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
-                  Tool Sets & Kits
-                </a>
-              </li>
-            </ul>
+        </div>
+        
+        <div className="mt-8">
+          <h3 className="text-lg font-bold text-white mb-5">Product Categories</h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            <a href="#precision-screwdrivers" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
+              Screwdrivers
+            </a>
+            <a href="#professional-spanners" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
+              Spanners
+            </a>
+            <a href="#box-wrenches" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
+              Box Wrenches
+            </a>
+            <a href="#spark-plug-wrenches" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
+              Spark Plug Wrenches
+            </a>
+            <a href="#professional-tool-bags" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
+              Tool Bags
+            </a>
+            <a href="#tool-sets-kits" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
+              Tool Sets & Kits
+            </a>
           </div>
         </div>
         
