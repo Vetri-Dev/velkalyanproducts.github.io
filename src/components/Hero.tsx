@@ -59,13 +59,6 @@ const Hero = () => {
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </span>
               </Button>
-              
-              <Button 
-                className="h-14 px-8 bg-velkalyan-amber hover:bg-velkalyan-amber/90 text-velkalyan-navy font-semibold rounded-xl transition-all duration-300 hover:shadow-medium"
-                onClick={scrollToContact}
-              >
-                Request Information
-              </Button>
             </div>
             
             <div className="glass-effect p-6 rounded-2xl border border-velkalyan-blue/20 shadow-soft hover:shadow-medium transition-all duration-300 group">
@@ -106,6 +99,15 @@ const Hero = () => {
                       <span className="font-medium text-center text-sm text-velkalyan-navy group-hover:text-gradient transition-all duration-300">{tool.name}</span>
                     </div>
                   ))}
+                </div>
+                
+                <div className="mt-8 text-center">
+                  <Button 
+                    className="h-12 px-6 bg-velkalyan-amber hover:bg-velkalyan-amber/90 text-velkalyan-navy font-semibold rounded-xl transition-all duration-300 hover:shadow-medium"
+                    onClick={scrollToContact}
+                  >
+                    Request Information
+                  </Button>
                 </div>
               </div>
             </div>
