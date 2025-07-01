@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X, Wrench, ShoppingBag } from "lucide-react";
@@ -17,10 +16,11 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <a href="/" className="flex items-center space-x-2">
-              <Wrench className="h-6 w-6 text-velkalyan-red" />
-              <span className="text-xl font-bold text-velkalyan-blue">Velkalyan Products</span>
+              <Wrench className="h-7 w-7 text-velkalyan-red" />
+              <span className="text-2xl font-bold text-velkalyan-blue">Velkalyan Products</span>
             </a>
           </div>
+          
           
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#products" className="text-velkalyan-blue hover:text-velkalyan-red font-medium transition-colors">
