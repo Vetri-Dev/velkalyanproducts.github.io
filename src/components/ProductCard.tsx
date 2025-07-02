@@ -11,6 +11,13 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ title, description, icon, features }) => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="group relative bg-white rounded-2xl overflow-hidden shadow-card hover:shadow-glow transition-all duration-500 border border-gray-100/50 hover:border-velkalyan-blue/20 transform hover:-translate-y-2">
       {/* Gradient overlay */}
@@ -26,9 +33,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, description, icon, fea
               <Star className="h-3 w-3 text-white" />
             </div>
           </div>
-          <span className="text-xs font-semibold px-3 py-1.5 bg-gradient-to-r from-velkalyan-orange/20 to-velkalyan-amber/20 text-velkalyan-navy rounded-full border border-velkalyan-orange/30">
-            Honda Certified
-          </span>
         </div>
         
         <div className="mb-6">
@@ -57,6 +61,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, description, icon, fea
         
         <Button 
           className="w-full h-12 font-semibold btn-gradient text-white border-0 rounded-xl shadow-soft hover:shadow-medium transition-all duration-300 transform hover:scale-[1.02] relative overflow-hidden group/btn"
+          onClick={scrollToContact}
         >
           <span className="relative z-10">Request Information</span>
           <div className="absolute inset-0 bg-gradient-to-r from-velkalyan-blue to-velkalyan-navy opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300"></div>

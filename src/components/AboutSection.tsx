@@ -11,8 +11,7 @@ const AboutSection = () => {
             <div className="mb-8">
               <h2 className="text-3xl font-bold mb-4">About Velkalyan Products</h2>
               <p className="text-velkalyan-gray mb-4">
-                With over 15 years of experience in manufacturing precision hand tools, Velkalyan Products 
-                has established itself as a leading supplier to the automotive industry in India.
+                With over 25 years of industry experience, Velkalyan Products has consistently delivered quality, reliability, and scalability, earning long-standing partnerships with OEM leaders such as TVS Motor Company and Honda Motorcycle & Scooter India (HMSI).
               </p>
               <p className="text-velkalyan-gray">
                 Our partnership with Honda Motorcycles India Ltd. is built on our commitment to quality, 
@@ -23,7 +22,7 @@ const AboutSection = () => {
             
             <div className="grid grid-cols-2 gap-4">
               <div className="flex flex-col items-center bg-velkalyan-light p-4 rounded-lg">
-                <div className="text-4xl font-bold text-velkalyan-red mb-1">15+</div>
+                <div className="text-4xl font-bold text-velkalyan-red mb-1">25+</div>
                 <div className="text-sm text-center text-velkalyan-blue">Years of Experience</div>
               </div>
               <div className="flex flex-col items-center bg-velkalyan-light p-4 rounded-lg">
@@ -31,8 +30,8 @@ const AboutSection = () => {
                 <div className="text-sm text-center text-velkalyan-blue">Products Engineered</div>
               </div>
               <div className="flex flex-col items-center bg-velkalyan-light p-4 rounded-lg">
-                <div className="text-4xl font-bold text-velkalyan-red mb-1">50+</div>
-                <div className="text-sm text-center text-velkalyan-blue">Service Centers Supplied</div>
+                <div className="text-4xl font-bold text-velkalyan-red mb-1">Certifications</div>
+                <div className="text-sm text-center text-velkalyan-blue">IATF 16949:2016 for QMS, ISO 14001:2015 for EMS</div>
               </div>
               <div className="flex flex-col items-center bg-velkalyan-light p-4 rounded-lg">
                 <div className="text-4xl font-bold text-velkalyan-red mb-1">99%</div>
@@ -51,7 +50,7 @@ const AboutSection = () => {
                   <h3 className="text-xl font-semibold mb-2">Quality Assurance</h3>
                   <p className="text-velkalyan-gray">
                     Every tool undergoes rigorous testing and quality control measures to ensure they 
-                    meet international standards and Honda's specific requirements.
+                    meet QMS requirements.
                   </p>
                 </div>
               </div>
@@ -80,7 +79,7 @@ const AboutSection = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Customer Support</h3>
                   <p className="text-velkalyan-gray">
-                    Our dedicated support team provides technical assistance, training, and 
+                    Our dedicated support team provides technical assistance and 
                     after-sales service to ensure optimal performance of our tools.
                   </p>
                 </div>
@@ -96,7 +95,7 @@ const AboutSection = () => {
                   <h3 className="text-xl font-semibold mb-2">Industry Recognition</h3>
                   <p className="text-velkalyan-gray">
                     Recognized for excellence in tool manufacturing with multiple industry awards 
-                    and certifications for quality and innovation.
+                    and quality certifications.
                   </p>
                 </div>
               </div>

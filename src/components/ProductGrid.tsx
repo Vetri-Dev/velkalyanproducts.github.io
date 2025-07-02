@@ -87,7 +87,7 @@ const ProductGrid = () => {
           <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-velkalyan-blue to-velkalyan-blue/70 bg-clip-text text-transparent">Our Premium Product Range</h2>
           <p className="text-velkalyan-gray">
             Explore our lineup of professional-grade hand tools engineered to meet the exacting 
-            standards of Honda Motorcycles and automotive professionals.
+            standards of automotive professionals.
           </p>
         </div>
         

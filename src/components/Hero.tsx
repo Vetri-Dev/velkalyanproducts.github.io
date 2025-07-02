@@ -100,15 +100,6 @@ const Hero = () => {
                     </div>
                   ))}
                 </div>
-                
-                <div className="mt-8 text-center">
-                  <Button 
-                    className="h-12 px-6 bg-velkalyan-amber hover:bg-velkalyan-amber/90 text-velkalyan-navy font-semibold rounded-xl transition-all duration-300 hover:shadow-medium"
-                    onClick={scrollToContact}
-                  >
-                    Request Information
-                  </Button>
-                </div>
               </div>
             </div>
           </div>
