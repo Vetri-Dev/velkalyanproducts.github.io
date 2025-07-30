@@ -59,23 +59,23 @@ ${data.message}
   };
 
   return (
-    <section id="contact" className="section-padding bg-velkalyan-light">
+    <section id="contact" className="section-padding bg-muted">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-          <p className="text-velkalyan-gray">
+          <h2 className="text-3xl font-bold mb-4 text-gradient">Contact Us</h2>
+          <p className="text-muted-foreground">
             Interested in our tools? Have questions about our products? 
             Reach out to our team for more information.
           </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-6">Send Us a Message</h3>
+          <div className="cyber-card p-8 rounded-lg shadow-cyber border border-primary/30">
+            <h3 className="text-xl font-semibold mb-6 text-foreground">Send Us a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-velkalyan-blue mb-1">
+                  <label htmlFor="name" className="block text-sm font-medium text-primary mb-1">
                     Your Name
                   </label>
                   <Input
@@ -87,7 +87,7 @@ ${data.message}
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-velkalyan-blue mb-1">
+                  <label htmlFor="email" className="block text-sm font-medium text-primary mb-1">
                     Email Address
                   </label>
                   <Input
@@ -102,7 +102,7 @@ ${data.message}
               </div>
               
               <div>
-                <label htmlFor="company" className="block text-sm font-medium text-velkalyan-blue mb-1">
+                <label htmlFor="company" className="block text-sm font-medium text-primary mb-1">
                   Company
                 </label>
                 <Input
@@ -114,7 +114,7 @@ ${data.message}
               </div>
               
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-velkalyan-blue mb-1">
+                <label htmlFor="subject" className="block text-sm font-medium text-primary mb-1">
                   Subject
                 </label>
                 <Input
@@ -127,7 +127,7 @@ ${data.message}
               </div>
               
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-velkalyan-blue mb-1">
+                <label htmlFor="message" className="block text-sm font-medium text-primary mb-1">
                   Message
                 </label>
                 <Textarea
@@ -141,7 +141,7 @@ ${data.message}
               
               <Button 
                 type="submit" 
-                className="w-full bg-velkalyan-red hover:bg-velkalyan-red/90"
+                className="w-full btn-gradient text-primary-foreground neon-glow hover:shadow-cyber"
                 disabled={isLoading}
               >
                 <Send className="mr-2 h-4 w-4" />
@@ -151,13 +151,13 @@ ${data.message}
           </div>
           
           <div className="space-y-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">Corporate Office</h3>
+            <div className="cyber-card p-6 rounded-lg shadow-cyber border border-primary/30">
+              <h3 className="text-xl font-semibold mb-4 text-foreground">Corporate Office</h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <MapPin className="h-5 w-5 text-velkalyan-red mr-3 mt-1" />
+                  <MapPin className="h-5 w-5 text-primary mr-3 mt-1" />
                   <div>
-                    <p className="text-velkalyan-gray">
+                    <p className="text-muted-foreground">
                       C-19/3, 3rd Main Rd, Industrial Estate, <br />
                       Rajajinagar, Bengaluru, Karnataka 560010
                     </p>
@@ -165,31 +165,31 @@ ${data.message}
                 </div>
                 
                 <div className="flex items-center">
-                  <Phone className="h-5 w-5 text-velkalyan-red mr-3" />
-                  <p className="text-velkalyan-gray">+918023113760</p>
+                  <Phone className="h-5 w-5 text-primary mr-3" />
+                  <p className="text-muted-foreground">+918023113760</p>
                 </div>
                 
                 <div className="flex items-center">
-                  <Mail className="h-5 w-5 text-velkalyan-red mr-3" />
-                  <p className="text-velkalyan-gray">velkalyanproducts@gmail.com</p>
+                  <Mail className="h-5 w-5 text-primary mr-3" />
+                  <p className="text-muted-foreground">velkalyanproducts@gmail.com</p>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
+            <div className="cyber-card p-6 rounded-lg shadow-cyber border border-primary/30">
+              <h3 className="text-xl font-semibold mb-4 text-foreground">Business Hours</h3>
               <div className="space-y-2">
                 <div className="flex justify-between">
-                  <span className="text-velkalyan-gray">Monday - Friday:</span>
-                  <span className="font-medium">9:00 AM - 6:00 PM</span>
+                  <span className="text-muted-foreground">Monday - Friday:</span>
+                  <span className="font-medium text-foreground">9:00 AM - 6:00 PM</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-velkalyan-gray">Saturday:</span>
-                  <span className="font-medium">9:00 AM - 6:00 PM</span>
+                  <span className="text-muted-foreground">Saturday:</span>
+                  <span className="font-medium text-foreground">9:00 AM - 6:00 PM</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-velkalyan-gray">Sunday:</span>
-                  <span className="font-medium">Closed</span>
+                  <span className="text-muted-foreground">Sunday:</span>
+                  <span className="font-medium text-foreground">Closed</span>
                 </div>
               </div>
             </div>

@@ -54,14 +54,14 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				velkalyan: {
-					blue: '#1e40af',
-					navy: '#1e3a8a', 
-					gray: '#6b7280',
-					orange: '#f97316',
-					amber: '#f59e0b',
-					light: '#f8fafc',
-					dark: '#0f172a',
-					slate: '#334155'
+					emerald: 'hsl(142, 76%, 36%)',
+					purple: 'hsl(262, 83%, 58%)', 
+					slate: 'hsl(220, 26%, 14%)',
+					cyan: 'hsl(187, 85%, 53%)',
+					violet: 'hsl(263, 70%, 50%)',
+					dark: 'hsl(224, 71%, 4%)',
+					light: 'hsl(210, 40%, 98%)',
+					muted: 'hsl(215, 27.9%, 16.9%)'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -144,10 +144,12 @@ export default {
 				'float': 'float 6s ease-in-out infinite'
 			},
 			boxShadow: {
-				'soft': '0 10px 25px -5px rgba(0, 0, 0, 0.05)',
-				'medium': '0 10px 25px -5px rgba(0, 0, 0, 0.1)',
-				'glow': '0 0 20px -5px rgba(59, 130, 246, 0.3)',
-				'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+				'soft': '0 10px 25px -5px rgba(34, 197, 94, 0.1)',
+				'medium': '0 10px 25px -5px rgba(34, 197, 94, 0.2)',
+				'glow': '0 0 20px -5px rgba(34, 197, 94, 0.4)',
+				'card': '0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2)',
+				'neon': '0 0 5px hsl(var(--primary)), 0 0 10px hsl(var(--primary)), 0 0 15px hsl(var(--primary))',
+				'cyber': '0 0 30px rgba(34, 197, 94, 0.3), inset 0 0 30px rgba(34, 197, 94, 0.1)',
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
