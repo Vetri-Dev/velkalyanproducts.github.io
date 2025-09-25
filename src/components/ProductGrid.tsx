@@ -55,7 +55,7 @@ const ProductGrid = () => {
     },
     {
       id: 'professional-tool-bags',
-      title: 'Professional Tool Bags',
+      title: 'Tool Bags',
       description: 'Durable, organized tool storage solutions for automotive professionals.',
       icon: <ShoppingBag className="w-6 h-6 text-velkalyan-blue" />,
       features: [
