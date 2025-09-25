@@ -29,14 +29,6 @@ const AboutSection = () => {
                 <div className="text-4xl font-bold text-primary mb-1">1000+</div>
                 <div className="text-sm text-center text-muted-foreground">Products Engineered</div>
               </div>
-              <div className="flex flex-col items-center cyber-card p-4 rounded-lg border border-primary/30">
-                <div className="text-4xl font-bold text-primary mb-1">Certifications</div>
-                <div className="text-sm text-center text-muted-foreground">IATF 16949:2016 for QMS, ISO 14001:2015 for EMS</div>
-              </div>
-              <div className="flex flex-col items-center cyber-card p-4 rounded-lg border border-primary/30">
-                <div className="text-4xl font-bold text-primary mb-1">99%</div>
-                <div className="text-sm text-center text-muted-foreground">Customer Satisfaction</div>
-              </div>
             </div>
           </div>
           
