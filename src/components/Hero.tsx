@@ -49,7 +49,7 @@ const Hero = () => {
             <div className="space-y-6">
               <div className="inline-flex items-center px-4 py-2 cyber-card bg-primary/20 rounded-full border border-primary/30 text-primary font-medium text-sm">
                 <Award className="w-4 h-4 mr-2" />
-                Official Honda Partner Since 2010
+                IATF 16949:2016 Certified
               </div>
               
               <h1 className="font-heading font-bold tracking-tight">
