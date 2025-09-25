@@ -7,7 +7,7 @@ const PartnershipBanner = () => {
     <section id="partnership" className="bg-velkalyan-blue py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center text-white mb-10">
-          <h2 className="text-3xl font-bold mb-4 text-white">Official Tool Partner of Honda Motorcycles & Scooters India Ltd.</h2>
+          <h2 className="text-3xl font-bold mb-4 text-white">Our Team</h2>
           <p className="text-lg opacity-90">
             Velkalyan Products has been the trusted supplier of premium hand tools for Honda Motorcycles & Scooters India Ltd., 
             meeting their exacting standards for quality, durability, and precision.

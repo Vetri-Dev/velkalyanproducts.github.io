@@ -11,7 +11,7 @@ const ProductGrid = () => {
       description: 'Professional-grade screwdrivers with handles engineered for precise torque and durability.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
       features: [
-        'Chrome vanadium steel construction',
+        'Carbon steel construction',
         'Ergonomic grip handles',
         'Magnetic tips for easy handling',
         'Multiple size options available'
@@ -23,10 +23,9 @@ const ProductGrid = () => {
       description: 'High-quality spanners designed for optimal grip and torque control.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
       features: [
-        'Forged chrome-molybdenum steel',
-        'Precision machined openings',
-        '15° offset for knuckle clearance',
-        'Chrome-plated finish'
+        'Forged carbon steel',
+        'Double-Ended Spanners',
+        'Zinc-plated finish'
       ]
     },
     {
@@ -35,10 +34,10 @@ const ProductGrid = () => {
       description: 'Durable box wrenches that provide superior leverage for challenging tasks.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
       features: [
-        'Double-ended design for versatility',
-        'Heat-treated alloy steel construction',
-        'Chrome plating resists corrosion',
-        'Sizes to fit Honda specifications'
+        'Double-ended Design',
+        'Electric Resistance Welded Wrenches',
+        'Zinc plating resists corrosion',
+        'Customised for automotive requirements'
       ]
     },
     {
@@ -47,7 +46,7 @@ const ProductGrid = () => {
       description: 'Specialized wrenches for precise and safe spark plug installation and removal.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
       features: [
-        'Rubber insert to protect ceramic',
+        'Includes Rubber insert for smooth gliding of Screwdriver',
         'Hex design for improved torque',
         'Deep socket design for access',
         'Size-specific for Honda engines'
@@ -59,10 +58,7 @@ const ProductGrid = () => {
       description: 'Durable, organized tool storage solutions for automotive professionals.',
       icon: <ShoppingBag className="w-6 h-6 text-velkalyan-blue" />,
       features: [
-        'Heavy-duty canvas construction',
-        'Multiple compartments for organization',
-        'Reinforced handles and seams',
-        'Custom foam inserts available'
+        'Multiple size options available'
       ]
     },
     {
@@ -72,9 +68,7 @@ const ProductGrid = () => {
       icon: <Package className="w-6 h-6 text-velkalyan-blue" />,
       features: [
         'Curated selection for specific models',
-        'Carrying case included',
-        'All tools meet Honda specifications',
-        'Available for different service levels'
+        'Customised sizes available'
       ]
     },
   ];

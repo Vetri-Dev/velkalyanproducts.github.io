@@ -180,11 +180,7 @@ ${data.message}
               <h3 className="text-xl font-semibold mb-4 text-foreground">Business Hours</h3>
               <div className="space-y-2">
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Monday - Friday:</span>
-                  <span className="font-medium text-foreground">9:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-muted-foreground">Saturday:</span>
+                  <span className="text-muted-foreground">Monday - Saturday:</span>
                   <span className="font-medium text-foreground">9:00 AM - 6:00 PM</span>
                 </div>
                 <div className="flex justify-between">
