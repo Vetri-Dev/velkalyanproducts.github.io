@@ -74,7 +74,7 @@ const Hero = () => {
                 <div className="h-10 w-10 rounded-full bg-gradient-to-r from-primary to-accent flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 neon-glow">
                   <Shield className="h-5 w-5 text-primary-foreground" />
                 </div>
-                Official Tool Supplier for Honda Motorcycles & Scooters India Ltd.
+                Approved Toolkit Supplier for Honda Motorcycles & Scooters India Ltd.
               </p>
             </div>
           </div>
