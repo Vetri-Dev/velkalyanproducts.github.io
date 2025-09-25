@@ -7,7 +7,7 @@ const ProductGrid = () => {
   const products = [
     {
       id: 'precision-screwdrivers',
-      title: 'Screwdrivers',
+      title: 'Screwdrivers and Handles',
       description: 'Professional-grade screwdrivers engineered for precise torque and durability.',
       icon: <Wrench className="w-6 h-6 text-velkalyan-blue" />,
       features: [
