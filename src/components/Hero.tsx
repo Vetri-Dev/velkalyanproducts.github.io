@@ -93,7 +93,7 @@ const Hero = () => {
                 
                 <div className="grid grid-cols-2 gap-6">
                   {[{
-                  name: "Screwdrivers",
+                  name: "Screwdrivers and Handles",
                   icon: Wrench
                 }, {
                   name: "Professional Spanners",
