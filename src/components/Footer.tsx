@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Wrench } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-velkalyan-blue text-white">
+  return <footer className="bg-velkalyan-blue text-white">
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
@@ -41,7 +38,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8">
-          <h3 className="text-lg font-bold text-white mb-5">Product Categories</h3>
+          <h3 className="text-lg font-bold text-white mb-5 mx-[8px]">Product Categories</h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             <a href="#precision-screwdrivers" className="text-sm opacity-80 hover:opacity-100 hover:text-velkalyan-red transition-colors">
               Screwdrivers
@@ -83,8 +80,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
